@@ -1,0 +1,25 @@
+nav#navigation {
+    float: right;
+    div {
+        width: 90px;
+        height: 23px;
+        float: left;
+        text-align: center;
+        padding: 5px 7.5px 5px 7.5px;
+        a {
+            width: 85px;
+            height: 23px;
+            text-decoration: none;
+            font-family: 'Google Sans';
+            font-size: 16px;
+            color: #656C73;
+        }
+        a.current {
+            text-decoration: none;
+            font-family: 'Google Sans';
+            font-size: 16px;
+            color: #656C73;
+            font-weight: bold;
+        }
+    }
+}

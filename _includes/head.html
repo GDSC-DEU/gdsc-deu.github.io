@@ -1,0 +1,13 @@
+<head>
+    {%- if page.redirect -%}
+    <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
+    {%- endif -%}
+
+    <meta charset="utf-8">
+    <title>GDSC DEU {% if page.title != null and page.title != "" %}| {{ page.title }} {% endif %}</title>
+    <link rel ="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    {% feed_meta %}
+    {% seo %}
+</head>

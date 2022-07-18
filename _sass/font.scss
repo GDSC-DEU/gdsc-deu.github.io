@@ -1,0 +1,10 @@
+@mixin font-face($style-name, $file, $weight: noraml, $style: normal, $filepath: '/assets/font/#{$file}') {
+    @font-face {
+        font-family: '#{$style-name}';
+        src: url('#{$filepath}') format('truetype');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+@include font-face('Google Sans', 'GoogleSans-Regular.ttf');

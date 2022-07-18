@@ -1,0 +1,9 @@
+<nav id="navigation">
+    {% for item in site.data.navigation %}
+        <div id="navigation-item-{{ item.name | downcase }}">
+            <a href="{{ item.link | relative_url}}" {% if page.url == item.link %}class="current"{% endif %}>
+                {{ item.name }}
+            </a>
+        </div>
+    {% endfor %}
+</nav>
