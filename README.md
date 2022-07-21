@@ -10,11 +10,11 @@
         <a href="https://gdsc-deu.github.io"><strong>Explore GDSC DEU Homepage »</strong></a>
         <br/>
         <br/>
-        <a herf="https://gdsc.community.dev/dong-eui-university/">GDSC Chapter<a/>
+        <a herf="https://gdsc.community.dev/dong-eui-university/">GDSC Chapter</a>
         ·
-        <a herf="https://github.com/GDSC-DEU/gdsc-deu.github.io/issues">Report Bug<a/>
+        <a herf="https://github.com/GDSC-DEU/gdsc-deu.github.io/issues">Report Bug</a>
         ·
-        <a herf="https://github.com/GDSC-DEU/gdsc-deu.github.io/issues">Request Feature<a/>       
+        <a herf="https://github.com/GDSC-DEU/gdsc-deu.github.io/issues">Request Feature</a>       
     </p>
     <hr/>
 </div>
@@ -30,9 +30,9 @@
 
 ## Introduction
 <div align="center">
-    <img src="./assets/img/GDSC DEU main page.png" width="500px" alt="GDSC DEU logo">
+    <img src="./assets/img/GDSC DEU main page.png" alt="GDSC DEU logo">
 </div>
-Write the introduction.
+GDSC DEU members can write blog post and introduce their project at this repository. And you can read GDSC DEU information at <a href="https://gdsc-deu.github.io">https://gdsc-deu.github.io</a>.
 
 ## Prerequisites
 - Ruby version **2.5.0** or higher
@@ -67,6 +67,29 @@ bundle exec jekyll serve
 ```
 * You can check the demo site by accessing [https://localhost:4000](https://localhost:4000).
 
+### Directory Structure
+```bash
+GDSC-DEU.GITHUB.IO/
+├── _data                      # Well-formatted site data.
+├── _includes                  # The partials of layouts and posts.
+├── _layouts                   # The templates that wrap posts. 
+├── _members                   # GDSC Member Information.
+├── _pages                     # Website pages (that are not posts)
+├── _posts                     # Where all blog posts will go.
+├── _sass                      # Partials of `style.scss` file.
+├── _assets                    # Style sheets and images are found here.
+|  ├── css                     # CSS file go here.
+|  |  └── styles.scss          # Main SCSS file.
+|  └── font                    # Font file go here.
+|  └── img                     # Image file go here.
+├── _config.yml                # Site settings.
+├── .gitignore                 # Manage untracked files.
+├── 404.html                   # Custom and responsive 404 page.
+├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins.
+├── index.html                 # Main page.
+└── README.md                  # Includes all of the documentation for this site.
+```
+
 ## Style Guide
 * Use the **[Google HTML/CSS Guideline](https://google.github.io/styleguide/htmlcssguide.html)**.
 
@@ -92,7 +115,6 @@ Referred to [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0
 [optional body]
 [optional footer(s)]
 ```
-
 
 ## Maintainers
 Current Maintainers:
