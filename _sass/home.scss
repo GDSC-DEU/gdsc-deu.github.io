@@ -1,58 +1,73 @@
-div#home {
-    width: 1000px;
-    height: 450px;
-    margin: auto;
-    display: flex;
-    align-items: center;
+#carousel:hover .control {
+    background: black;
+}
 
-    #home-description {
-        float: left;
-        margin: auto;
-        width: 50%;
-        word-wrap: break-word;
-        font-family: 'Google Sans';
+#carousel:hover {
+    background: rgba(0, 0, 0, .1);
+}
 
-        p#title {
-            font-size: 50px;
-            font-weight: bold;
-            color: #222222;
-            margin: 10px 0px;
-        }
+#carousel {
+    height: 500px;
+    transition: background ease 100ms;
 
-        p#description {
-            font-size: 16px;
-            color: #595959;
-            padding-top: 10px;
-            b {
-                font-size: 20px;
+    .carousel-item {
+        .wrap {
+            width: 1000px;
+            height: 450px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+
+            #home-description {
+                float: left;
+                margin: auto;
+                width: 50%;
+                word-wrap: break-word;
+                font-family: 'Google Sans';
+
+                p#title {
+                    font-size: 50px;
+                    font-weight: bold;
+                    color: #222222;
+                    margin: 10px 0px;
+                }
+
+                p#description {
+                    font-size: 16px;
+                    color: #595959;
+                    padding-top: 10px;
+                    b {
+                        font-size: 20px;
+                    }
+                }
             }
-        }
-    }
 
-    #buttons {
-        #gdsc-community {
-            width: 100px;
-            height: 30px;
-            float: left;
-            background-color: #34A853;
-            margin-right: 10px;
-            border-radius: 5px;
-        }
-        #github {
-            width: 100px;
-            height: 30px;
-            float: left;
-            background-color: #333333;
-            border-radius: 5px;
-        }
-    }
+            #buttons {
+                #gdsc-community {
+                    width: 100px;
+                    height: 30px;
+                    float: left;
+                    background-color: #34A853;
+                    margin-right: 10px;
+                    border-radius: 5px;
+                }
+                #github {
+                    width: 100px;
+                    height: 30px;
+                    float: left;
+                    background-color: #333333;
+                    border-radius: 5px;
+                }
+            }
 
-    #home-illustration {
-        float: left;
-        width: 50%;
-        img {
-            padding-top: 50px;
-            max-width: 100%;
+            #home-illustration {
+                float: left;
+                width: 50%;
+                img {
+                    padding-top: 50px;
+                    max-width: 100%;
+                }
+            }
         }
     }
 }

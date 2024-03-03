@@ -1,0 +1,45 @@
+.post-item:hover .hover-warp {
+  background: rgba(0, 0, 0, .1);
+}
+
+#blog-wrap {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .post-item {
+    display: block;
+    color: black;
+    text-decoration: blink;
+    position: relative;
+
+    .card {
+      width: 100%;
+    }
+
+    .hover-warp {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: background ease 500ms;
+    }
+  }
+
+  .thumbnail-wrap {
+    width: fit-content;
+  }
+
+  .thumbnail {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+}
