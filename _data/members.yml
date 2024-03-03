@@ -19,10 +19,15 @@
   github: Mina-1316
   avatar: https://avatars.githubusercontent.com/u/74696602?v=4
   role: Core
-  
+
 - name: 최서윤
   github: indevruis
   avatar: https://avatars.githubusercontent.com/u/99643711?v=4
+  role: Core
+
+- name: 진희륜
+  github: SerenityS
+  avatar: https://avatars.githubusercontent.com/u/3811039?v=4
   role: Core
 
 - name: 박상현
@@ -59,7 +64,7 @@
   github: 012050
   avatar: https://avatars.githubusercontent.com/u/101517763?v=4
   role: Member
-  
+
 - name: 신승우
   github: SeungWoo1121
   avatar: https://avatars.githubusercontent.com/u/144456090?v=4
@@ -69,9 +74,8 @@
   github: oyune
   avatar: https://avatars.githubusercontent.com/u/93826302?v=4
   role: Member
-  
+
 - name: 장현제
   github: Hyeonje09
   avatar: https://avatars.githubusercontent.com/u/104563212?v=4
   role: Member
-  

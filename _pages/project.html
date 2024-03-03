@@ -3,6 +3,35 @@ layout: default
 title: Project
 permalink: /project/
 ---
-<div class="implement">
-    오픈예정
+
+<div id="project-wrap">
+    <h1>Projects</h1>
+
+    <div id="project-list" class="list-group">
+    </div>
 </div>
+
+<script>
+    (async () => {
+        const projectList = document.getElementById("project-list");
+        const response = await axios.get("https://api.github.com/orgs/GDSC-DEU/repos?sort=updated");
+
+        for (item of response.data) {
+            if (item.name == ".github") {
+                continue;
+            }
+
+            let html = `
+            <a href="${item.html_url}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">${item.name}</h5>
+                    <small>${item.pushed_at}</small>
+                </div>
+                <p class="mb-1">${item.description == null ? "" : item.description}</p>
+                <small>${item.language == null ? "" : item.language}</small>
+            </a>
+            `;
+            projectList.innerHTML += html;
+        }
+    })();
+</script>
