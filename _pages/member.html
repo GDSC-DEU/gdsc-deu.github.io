@@ -4,18 +4,99 @@ title: Member
 permalink: /member/
 ---
 
-<div id="member-wrap">
-  <div class="wrap">
+<script>
+  // Axios를 활용해서 https://api.github.com/users/<username>에서 데이터를 가져오는 함수를 작성해줘
+  function getGithubProfile(githubId) {
+    const response = axios.get("https://api.github.com/users/" + githubId);
+    console.log(response)
+  }
+  <style>
+    /* 추가적인 미디어 쿼리를 통한 반응형 조정 */
+    @media (min-width: 576px) {
+      .row - cols - sm - 2 >.col {
+      flex: 0 0 50%;
+    max-width: 50%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .row - cols - md - 3 >.col {
+      flex: 0 0 33.333%;
+    max-width: 33.333%;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .row - cols - lg - 4 >.col {
+      flex: 0 0 25%;
+    max-width: 25%;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .row - cols - xl - 5 >.col {
+      flex: 0 0 20%;
+    max-width: 20%;
+      }
+    }
+  </style>
+</script>
+
+
+<div id="member-wrap" class="container">
+  <div class="jumbotron text-center py-4 mb-4">
+    <h1 class="display-4">멤버</h1>
+    <p class="lead">우리 팀 멤버들을 소개합니다.</p>
+  </div>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3">
     {% for member_info in site.data.members %}
-    <div class="card col">
-      <img src="{{ member_info.avatar }}" alt="{{ member_info.name }}" class="card-img-top member-avatar">
-      <div class="card-body">
-        <h5 class="card-title">{{ member_info.name }}</h5>
-        <p class="card-text">{{ member_info.role }}</p>
-        <a href="https://github.com/{{ member_info.github }}" class="btn btn-primary member-link"
-          target="_blank">Link</a>
+    {% if member_info.status == "active" %}
+    <div class="col">
+      <div class="card">
+        <img src="https://avatars.githubusercontent.com/{{ member_info.github }}" alt="{{ member_info.name }}"
+          class="card-img-top member-avatar">
+        <div class="card-body">
+          <h5 class="card-title">{{ member_info.name }}</h5>
+          <p class="card-text">{{ member_info.role }}</p>
+          <a href="https://github.com/{{ member_info.github }}" class="btn btn-primary member-link"
+            target="_blank">GitHub</a>
+          <a href="mailto:{{ member_info.email }}" class="btn btn-secondary member-link" target="_blank">Email</a>
+        </div>
       </div>
     </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div id="member-wrap" class="container">
+  <div class="jumbotron text-center py-4 mb-4">
+    <h1 class="display-4">졸업생</h1>
+    <p class="lead">GDSC DEU에서 활동한 멤버분들입니다! </p>
+  </div>
+
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3">
+    {% for member_info in site.data.members %}
+    {% if member_info.status != "active" %}
+    <div class="col">
+      <div class="card">
+        <img src="https://avatars.githubusercontent.com/{{ member_info.github }}" alt="{{ member_info.name }}"
+          class="card-img-top member-avatar">
+        <div class="card-body">
+          <h5 class="card-title">{{ member_info.name }}</h5>
+          <p class="card-text">{{ member_info.role }}</p>
+          <a href="https://github.com/{{ member_info.github }}" class="btn btn-primary member-link"
+            target="_blank">GitHub</a>
+          <a href="mailto:{{ member_info.email }}" class="btn btn-secondary member-link" target="_blank">Email</a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
     {% endfor %}
   </div>
 </div>

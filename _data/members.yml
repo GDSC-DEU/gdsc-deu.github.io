@@ -1,81 +1,747 @@
 - name: 김남주
-  github: cmsong111
-  avatar: https://avatars.githubusercontent.com/u/23499675?v=4
   role: Lead
-  email: cmsong111@gmail.com
-  description: T자형 개발자를 희망하는 학생입니다.
+  chore: 
+    - 1기
+    - 2기
+    - 3기
+  status: active
+  github: cmsong111
+  email: cmsong111@naver.com
 
-- name: 정민규
-  github: tomorrow9913
-  avatar: https://avatars.githubusercontent.com/u/35493042?v=4
+- name: 김지홍
   role: Core
-
-- name: 정예준
-  github: yejun614
-  avatar: https://avatars.githubusercontent.com/u/31740224?v=4
-  role: Core
+  chore:
+    - 1기
+    - 3기
+  status: active
+  github: jihongeek
+  email: john_over2@naver.com
 
 - name: 조진혁
-  github: Mina-1316
-  avatar: https://avatars.githubusercontent.com/u/74696602?v=4
   role: Core
+  chore:
+    - 1기
+    - 2기
+    - 3기
+  status: active
+  github: Mina-1316
+  email: mina1316.canreply@gmail.com
+
+- name: 정민규
+  role: Core
+  chore: 
+    - 2기
+    - 3기
+  status: active
+  github: tomorrow9913
+  email: tomorrow9913@gmail.com
+
+- name: 송녕경
+  role: Core
+  chore:
+    - 2기
+  status: active
+  github: nyeonggyeong
+  email: suk22140@gmail.com
 
 - name: 최서윤
+  role: Core
+  chore: 
+    - 2기
+    - 3기
+  status: active
   github: indevruis
-  avatar: https://avatars.githubusercontent.com/u/99643711?v=4
-  role: Core
+  email: indevruis@gmail.com
 
-- name: 진희륜
-  github: SerenityS
-  avatar: https://avatars.githubusercontent.com/u/3811039?v=4
-  role: Core
-
-- name: 박상현
-  github: thelight0804
-  avatar: https://avatars.githubusercontent.com/u/69424845?v=4
+- name: 유동근
   role: Member
+  chore: 
+    - 2기
+    - 3기
+  status: active
+  github: dongdong8343
+  email: fkdlem8343@naver.com
 
-- name: 김대규
-  github: ByeolNabi
-  avatar: https://avatars.githubusercontent.com/u/82073780?v=4
+- name: 남정욱
   role: Member
-
-- name: 박주용
-  github: ju1645
-  avatar: https://avatars.githubusercontent.com/u/74340864?v=4
-  role: Member
+  chore: 
+    - 2기
+    - 3기
+  status: active
+  github: HelloWook
+  email: wookgod01@naver.com
 
 - name: 임도훈
-  github: Hun3431
-  avatar: https://avatars.githubusercontent.com/u/68728352?v=4
   role: Member
+  chore:
+    - 2기
+    - 3기
+  status: active
+  github: Hun3431
+  email: hun_3431@kakao.com
+
+- name: 강민정
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: im-in-105
+  email: alswjd100559@gmail.com
 
 - name: 문예진
+  role: Member
+  chore: 
+    - 3기
+  status: active
   github: wive10
-  avatar: https://avatars.githubusercontent.com/u/70935978?v=4
-  role: Member
+  email: immoonyejin@gmail.com
 
-- name: 김권수
-  github: Kuneosu
-  avatar: https://avatars.githubusercontent.com/u/66168725?v=4
+- name: 박소은
   role: Member
+  chore: 
+    - 3기
+  status: active
+  github: Soeun0
+  email: qozjavostus@gmail.com
+
+- name: 박주용
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: ju1645
+  email: ju704164553@gmail.com
+
+- name: 이지현
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  email: hyeon7588@gmail.com
 
 - name: 최범준
-  github: 012050
-  avatar: https://avatars.githubusercontent.com/u/101517763?v=4
   role: Member
+  chore: 
+    - 3기
+  status: active
+  github: "12050"
+  email: earthkorea1111@gmail.com
 
-- name: 신승우
-  github: SeungWoo1121
-  avatar: https://avatars.githubusercontent.com/u/144456090?v=4
+- name: 강보민
   role: Member
+  chore: 
+    - 3기
+  status: active
+  github: borbbo
+  email: hlness0226@gmail.com
+
+- name: 강준화
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  email: rkdwnsghk12@naver.com
+
+- name: 김다봄
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: dabom10
+  email: dabom425@gmail.com
+
+- name: 김민경
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: mnmn05
+  email: mink0502k@gmail.com
+
+- name: 김민석
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: minseok419
+  email: minseok050419@gmail.com
+
+- name: 김비룡
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: biryeongtrain
+  email: kb1004326@naver.com
+
+- name: 김청해
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: "111jjj111"
+  email: rlacjdgo23@gmail.com
+
+- name: 신유진
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: syj318
+  email: syj31822@gmail.com
+
+- name: 양진원
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: chikchok1
+  email: tony.jinwonyang@gmail.com
+
+- name: 이도원
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: protectinghome
+  email: ldwlee03@gmail.com
+
+- name: 이은진
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: eunjingjing
+  email: dcbwww1@gmail.com
+
+- name: 이준혁
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  email: junhyeok0430@gmail.com
+
+- name: 임민욱
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: minyook
+  email: limminyuk0815@gmail.com
+
+- name: 임승진
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: SeungJin051
+  email: seungjin051@gmail.com
+
+- name: 장나라
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  email: fcf2377@gmail.com
+
+- name: 정채빈
+  role: Member
+  chore: 
+    - 3기
+  status: active
+  github: beantultulyee
+  email: chaebinjeong39@gmail.com
+
+- name: 김시현
+  role: Member
+  chore: 
+    - 2기
+  status: Freeze
+  email: abalon3@naver.com
+
+- name: 나승주
+  role: Member
+  chore: 
+    - 2기
+  status: Freeze
+  email: naseungju02@gmail.com
+
+- name: 박근민
+  role: Member
+  chore: 
+    - 2기
+  status: Freeze
+  github: surrin1008
+  email: 20213056@office.deu.ac.kr
+
+- name: 박무성
+  role: Member
+  chore: 
+    - 2기
+  status: Freeze
+  email: zenga85@naver.com
+
+- name: 이선학
+  role: Member
+  chore: 
+    - 2기
+  status: Freeze
+  github: sunbaklee
+  email: lsh6076@naver.com
+
+- name: 김동영
+  role: Lead
+  chore: 
+    - 1기
+  status: Finish
+  github: pers0n4
+  email: 31337.persona@gmail.com
+
+- name: 진희륜
+  role: Lead
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: SerenityS
+  email: jins4218@gmail.com
+
+- name: 김영주
+  role: Core
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: K-0joo
+  email: tyty4420@naver.com
+
+- name: 박중환
+  role: Core
+  chore: 
+    - 1기
+  status: Finish
+  github: park0923
+  email: wndgks6249@gmail.com
+
+- name: 박지윤
+  role: Core
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: jiy00nn
+  email: mkaidgic764@naver.com
+
+- name: 신동하
+  role: Core
+  chore: 
+    - 1기
+  status: Finish
+  github: Shin-Dong-Ha
+  email: trydio608@naver.com
+
+- name: 최정혜
+  role: Core
+  chore: 
+    - 1기
+  status: Finish
+  github: jeonghye-choi
+  email: ppllhm.0@gmail.com
+
+- name: 최주영
+  role: Core
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: yuw0l
+  email: cjy020718@gmail.com
+
+- name: 손진영
+  role: Core
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: jinyoung234
+  email: sm099@naver.com
+
+- name: 정예준
+  role: Core
+  chore: 
+    - 1기
+    - 2기
+    - 3기
+  status: Finish
+  github: yejun614
+  email: yejun614@naver.com
+
+- name: 강대한
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: BLUEVERY8
+  email: bluevery818@gmail.com
+
+- name: 김민승
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  email: kms50000@naver.com
+
+- name: 김종운
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  email: senscalibur@gmail.com
+
+- name: 김준성
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: wnstjd5408
+  email: wnstjd5408@naver.com
+
+- name: 남유정
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: uzhjd
+  email: yujeong0528@naver.com
+
+- name: 박상현
+  role: Member
+  chore: 
+    - 1기
+    - 2기
+    - 3기
+  status: Finish
+  github: thelight0804
+  email: thelight0804@gmail.com
+
+- name: 박창주
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: pcj1505
+  email: bc5218j@naver.com
+
+- name: 송재백
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: thdwoqor
+  email: thdwoqor@naver.com
+
+- name: 원지윤
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: sudhdkso
+  email: waga1009@gmail.com
 
 - name: 윤채민
-  github: oyune
-  avatar: https://avatars.githubusercontent.com/u/93826302?v=4
   role: Member
+  chore: 
+    - 1기
+    - 2기 
+    - 3기
+  status: Finish
+  github: cinnamein
+  email: cinnamein@gmail.com
+
+- name: 이설희
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: D0ri123
+  email: lsh8155@naver.com
+
+- name: 최인수
+  role: Member
+  c  chore: 
+    - 1기
+  status: Finish
+  github: Nifskor
+  email: insuchoiqq@naver.com
+
+- name: 추용혁
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: solo5star
+  email: solo_5@naver.com
+
+- name: 허수민
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: heosumin518
+  email: heosumin518@gmail.com
+
+- name: 김현지
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: Hyun-Jiii
+  email: hyunjiiiii.0105@gmail.com
+
+- name: 신채은
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  email: chaeeuns1021@gmail.com
+
+- name: 오진서
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  github: ohjinseo
+  email: ojs835@naver.com
+
+- name: 윤한영
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  email: dbsgksdud12@naver.com
+
+- name: 이수찬
+  role: Member
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: soochangoforit
+  email: tncksdl05@gmail.com
+
+- name: 이주혁
+  role: Member
+  chore: 
+    - 1기
+  status: Finish
+  email: joohyeok5118@naver.com
+
+- name: 이지호
+  role: Member
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: jiho9702
+  email: jiho9707@gmail.com
+
+- name: 정진희
+  role: Member
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: rhaehf
+  email: jda0526@naver.com
+
+- name: 최범진
+  role: Member
+  chore: 
+    - 1기
+    - 2기
+  status: Finish
+  github: bj0717
+  email: haorenbj@naver.com
+
+- name: 강인석
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: kis0062195@gmail.com
+
+- name: 김우진
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: woojin1354@gmail.com
+
+- name: 김원
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: ksknk67@gmail.com
+
+- name: 문장혁
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: john04004@naver.com
+
+- name: 박병주
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: zkakcnd@naver.com
+
+- name: 박유정
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: jeny2003@naver.com
+
+- name: 박윤재
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: yunjae1204@gmail.com
+
+- name: 박창준
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: pcj0331@naver.com
+
+- name: 손정민
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: fkdlem8343@naver.com
+
+- name: 이혜리
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  github: l-hyeri
+  email: hyeri6318@gmail.com
+
+- name: 이호영
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: win_dy1207@naver.com
 
 - name: 장현제
-  github: Hyeonje09
-  avatar: https://avatars.githubusercontent.com/u/104563212?v=4
   role: Member
+  chore: 
+    - 2기
+  status: Finish
+  github: Hyeonje09
+  email: 20203209@office.deu.ac.kr
+
+- name: 전진호
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  github: right5625
+  email: right5625@naver.com
+
+- name: 최동우
+  role: Member
+  chore: 
+    - 2기
+  github: dongwoochoi
+  status: Finish
+  email: dong99woo@gmail.com
+
+- name: 최민
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: rmdwjd76@naver.com
+
+- name: 허동훈
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: tjdqls412@naver.com
+
+- name: 강해성
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  github: koh1260
+  email: k001206666@gmail.com
+
+- name: 김권수
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  github: Kuneosu
+  email: kks92155784@gmail.com
+
+- name: 엄예진
+  role: Member
+  chore: 
+    - 2기
+  status: Finish
+  email: yejin-e
+  email: kgb9326@naver.com
+
+- name: 조은지
+  role: Member
+  chore: 2.5기
+  status: Finish
+  email: eunji3314@naver.com
+
+- name: 진민정
+  role: Member
+  chore: 2.5기
+  status: Finish
+  github: Jung2312
+  email: 20212856@office.deu.ac.kr
+
+- name: 최종학
+  role: Member
+  chore: 2.5기
+  status: Finish
+  github: JongHak19
+  email: cj855695@gmail.com
+
+- name: 김대규
+  role: Member
+  chore: 
+    - 3기
+  status: Finish
+  github: ByeolNabi
+  email: lemoncastella@gmail.com
+
+- name: 신승우
+  role: Member
+  chore: 
+    - 3기
+  status: Finish
+  github: SeungWoo1121
+  email: sseungu23@gmail.com
+
+- name: 장민서
+  role: Member
+  chore: 3기
+  status: Finish
+  github: m1no3o
+  email: wkdalstj2004@gmail.com
