@@ -1,0 +1,75 @@
+- title: Spring Study
+  tags:
+    - Spring
+    - Java
+  description: "스프링 프레임워크를 공부하며 스프링의 기본적인 개념과 사용법을 익히는 스터디입니다."
+  start: 2021-03-02
+  end: 2021-05-25
+  image: /assets/img/logos/Spring-Boot-Logo.png
+  members:
+    - id: cmsong111
+    - id: jhkim
+
+- title: 리액티브 스프링 Study
+  tags:
+    - Spring
+    - Java
+  description: "스프링 프레임워크를 공부하며 스프링의 기본적인 개념과 사용법을 익히는 스터디입니다."
+  start: 2021-03-02
+  end: 2023-05-25
+  image: /assets/img/logos/Spring-Boot-Logo.png
+  members:
+    - id: cmsong111
+    - id: jhkim
+
+- title: Web Basic 스터디
+  tags:
+    - Web
+    - HTML
+    - CSS
+    - JavaScript
+  description: "웹 프론트엔드 개발을 위한 기초 지식을 습득하는 스터디입니다."
+  start: 2021-02-15
+  end: 2022-04-30
+  image: /assets/img/logos/web-logo.png
+  members:
+    - id: jhkim
+    - id: cmsong111
+
+- title: Spring Study
+  tags:
+    - Spring
+    - Java
+  description: "스프링 프레임워크를 공부하며 스프링의 기본적인 개념과 사용법을 익히는 스터디입니다."
+  start: 2021-03-02
+  end: 2021-05-25
+  image: /assets/img/logos/Spring-Boot-Logo.png
+  members:
+    - id: cmsong111
+    - id: jhkim
+
+- title: 리액티브 스프링 Study
+  tags:
+    - Spring
+    - Java
+  description: "스프링 프레임워크를 공부하며 스프링의 기본적인 개념과 사용법을 익히는 스터디입니다."
+  start: 2021-03-02
+  end: 2023-05-25
+  image: /assets/img/logos/Spring-Boot-Logo.png
+  members:
+    - id: cmsong111
+    - id: jhkim
+
+- title: Web Basic 스터디
+  tags:
+    - Web
+    - HTML
+    - CSS
+    - JavaScript
+  description: "웹 프론트엔드 개발을 위한 기초 지식을 습득하는 스터디입니다."
+  start: 2021-02-15
+  end: 2022-04-30
+  image: /assets/img/logos/web-logo.png
+  members:
+    - id: jhkim
+    - id: cmsong111

@@ -1,12 +1,12 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog/
-- name: Project
-  link: /project/
-- name: Member
-  link: /member/
-- name: Study
-  link: /study/
 - name: About Us
   link: /about-us/
+- name: Member
+  link: /member/
+- name: Blog
+  link: /blog/
+- name: Study
+  link: /study/
+- name: Project
+  link: /project/

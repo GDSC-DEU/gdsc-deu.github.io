@@ -1,0 +1,47 @@
+---
+layout: default
+title: Study
+permalink: /study/
+---
+
+<style>
+    img {
+        height: 180px;
+        width: 100%;
+        object-fit: contain;
+    }
+</style>
+
+Study
+
+📖 스터디 진행
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        {% assign sorted = site.data.studies | sort: 'end' | reverse %}
+        {% for study in sorted %}
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{ study.image  | relative_url }}" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">
+                    {{ study.title }}
+                </h4>
+                <p class="card-text">
+                    {{ study.description }}
+                </p>
+                참가자
+                <ul>
+                    {% for member in study.members %}
+                    <li>{{ member.id }}</li>
+                    {% endfor %}
+                </ul>
+
+            </div>
+            <div class="card-footer bg-transparent ">
+                {% for tag in study.tags %}
+                <span class="badge bg-secondary">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
