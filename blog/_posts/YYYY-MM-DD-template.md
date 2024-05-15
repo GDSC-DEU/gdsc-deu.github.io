@@ -1,9 +1,9 @@
 ---
-layout: post <- post 레이아웃을 사용합니다.
-thumbnail: assets/img/events/24.05.03/20240503_174827.jpg <- 썸네일 이미지 경로를 입력합니다.
-title: "제목을 입력하세요" <- 포스트 제목을 입력합니다.
-date: 2024-05-03T17:48:27 <- 포스트 작성 시간을 입력합니다.
-categories: [] <- 포스트 카테고리를 입력합니다.
+layout: post
+thumbnail: /assets/img/GDSC_Dong-Eui_University_Vertical_color.png
+title: 제목을 입력하세요
+date: 2024-05-03T17:48:27
+categories: []
 author: 작성자 이름
 ---
 
