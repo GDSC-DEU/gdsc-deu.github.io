@@ -1,7 +1,16 @@
 ---
 layout: default-markdown
 ---
+<style>
+    .utterances {
+        max-width: 100% !important;
+    }
+</style>
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 {{ content }}
+
+<script src="https://utteranc.es/client.js" repo="GDSC-DEU/gdsc-deu.github.io" issue-term="pathname"
+    theme="github-light" crossorigin="anonymous" async>
+    </script>
