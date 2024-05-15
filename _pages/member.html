@@ -10,37 +10,39 @@ permalink: /member/
     const response = axios.get("https://api.github.com/users/" + githubId);
     console.log(response)
   }
-  <style>
-    /* 추가적인 미디어 쿼리를 통한 반응형 조정 */
-    @media (min-width: 576px) {
-      .row - cols - sm - 2 >.col {
-      flex: 0 0 50%;
-    max-width: 50%;
-      }
-    }
-
-    @media (min-width: 768px) {
-      .row - cols - md - 3 >.col {
-      flex: 0 0 33.333%;
-    max-width: 33.333%;
-      }
-    }
-
-    @media (min-width: 992px) {
-      .row - cols - lg - 4 >.col {
-      flex: 0 0 25%;
-    max-width: 25%;
-      }
-    }
-
-    @media (min-width: 1200px) {
-      .row - cols - xl - 5 >.col {
-      flex: 0 0 20%;
-    max-width: 20%;
-      }
-    }
-  </style>
 </script>
+
+<style>
+  /* 추가적인 미디어 쿼리를 통한 반응형 조정 */
+  @media (min-width: 576px) {
+    .row-cols-sm-2>.col {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .row-cols-md-3>.col {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .row-cols-lg-4>.col {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .row-cols-xl-5>.col {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+  }
+</style>
+
 
 
 <div id="member-wrap" class="container">

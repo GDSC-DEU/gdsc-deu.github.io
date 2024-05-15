@@ -25,14 +25,12 @@
 title: GDSC DEU
 email: gdsc.kr.deu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Google Developer Student Clubs Dong-Eui University(GDSC DEU)는 Google 기술에 관심있는 학생들을 위한 대학교 기반 커뮤니티 그룹입니다. 다양한 학문적 배경을 가진 학생들이 모여 AI, ML, 클라우드, 안드로이드, 플러터 등 최신 기술을 학습하고, 프로젝트와 해커톤을 통해 실력을 키우며 성장하는 것을 목표로 합니다.
 domain: gdsc-deu.github.io
 url: "https://gdsc-deu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  GDSC-DEU
 timezone: Asia/Seoul
 
 # -------------------------------------------------------

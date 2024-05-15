@@ -1,23 +1,22 @@
 ---
-layout: default
+layout: default-markdown
 title: About
 permalink: /about-us/
 ---
-<center><img src= '{{ "/assets/img/GDSC Banner.png" | relative_url }}'></center>
 
-[Google Developer Student Clubs](https://gdsc.community.dev/dong-eui-university/)
+# Google Developer Student Clubs(GDSC)란?
 
-# **GDSC**
+![gdsc-korea-leads-image](/assets/img/GDSC-Korea-Leads.jpg)
 
-![image (1).jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc29f8040-41f6-47ef-a6ff-22e56c7c04fe%2F119fb822-c94f-4657-bced-b291831d4a92%2Fimage_(1).jpg?table=block&id=c8c488ef-95c8-4004-8868-2f69ac2b338b&spaceId=c29f8040-41f6-47ef-a6ff-22e56c7c04fe&width=2000&userId=751c0e10-dabd-4278-9b07-670f7468054b&cache=v2)
+**Google Developer Student Clubs(GDSC)**는 Google 기술에 관심있는 학생들을 위한 **대학교 기반 커뮤니티 그룹**입니다.<br>
+전 세계 100여 개국에서 2000개 이상의 GDSC 챕터가 있으며, 국내에는 2024년 상반기 기준 **36개의 챕터**가 있습니다.<br>
+AI/ML, Google Cloud, Android, Flutter 및 기타 혁신적인 기술을 함께 탐구하고 있습니다. GDSC 챕터는 초청 연사 및 기술 전문가와 함께 해커톤, 솔루션 챌린지 등 프로젝트 기반의 대면 행사를 주최합니다.<br>
 
-Google Developer Student Clubs (GDSC) 프로그램은 학생들이 개발/리더십 능력을 키울 수 있도록 지원하는 프로그램입니다. 
-기술적 성장을 위한 교육자료를 제공하고 리더십 개발을 위한 다양한 활동들을 지원합니다. 
-학생이 성장할 수 있도록 전세계의 학생 Lead들과의 교류 기회, Google의 이벤트 참여, 현업 엔지니어와의 만남 등 다양한 기회를 제공하고 쇼케이스/워크샵을 통해 역량을 높일 수 있도록 돕습니다.
+# GDSC Dong-Eui University
 
-# **GDSC DEU**
+![GDSC DEU 23-24](/assets/img/GDSC-DEU-3rd.jpg)
 
-![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9b02b694-0f61-45e5-a319-275ff3b63167%2FUntitled.png?table=block&id=d1f2d4fb-9f85-4207-9217-29403a363210&spaceId=c29f8040-41f6-47ef-a6ff-22e56c7c04fe&width=2000&userId=751c0e10-dabd-4278-9b07-670f7468054b&cache=v2)
+GDSC DEU에서는 구글 개발자 기술에 관심이 있는 모든 학생의 참여를 환영하며, **연결(Connect)**, **배움(Learn)**, **성장(Grow)**을 가치로 다양한 배경과 전공을 가진 학생들이 모여 기술을 습득하고 지역 공동체에 기여하기 위한 활동을 진행합니다.
 
 1. 공부하고 싶은 분야를 다른 사람과 같이 공부하는 스터디를 진행합니다.
 2. 본인이 공유하고 싶은 주제에 대해서 발표 세션을 진행합니다.
@@ -37,7 +36,7 @@ Google Developer Student Clubs (GDSC) 프로그램은 학생들이 개발/리더
 
 ## 🎙️ 세션
 
-![DSC04378 (1).jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc29f8040-41f6-47ef-a6ff-22e56c7c04fe%2Ff22b502c-b288-42bb-9eef-0b9056eccd52%2FDSC04378_(1).jpg?table=block&id=192d9b74-017f-44dc-83a0-8651ffa24b3b&spaceId=c29f8040-41f6-47ef-a6ff-22e56c7c04fe&width=2000&userId=751c0e10-dabd-4278-9b07-670f7468054b&cache=v2) ![Google-Developer-Student-Clubs-Dong-Eui-University-Google-Developer-Student-Clubs-GDSC-are-community-groups-for-college-and-university-students-interested-in-Google-developer-technologies-Students-from-all-undergraduate-or-gra.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc29f8040-41f6-47ef-a6ff-22e56c7c04fe%2Fb295d424-2f2d-48cb-b96e-bd2f72827654%2FGoogle-Developer-Student-Clubs-Dong-Eui-University-Google-Developer-Student-Clubs-GDSC-are-community-groups-for-college-and-university-students-interested-in-Google-developer-technologies-Students-from-all-undergraduate-or-gra.jpg?table=block&id=ad570899-1ad8-428c-b69f-568857ec9803&spaceId=c29f8040-41f6-47ef-a6ff-22e56c7c04fe&width=2000&userId=751c0e10-dabd-4278-9b07-670f7468054b&cache=v2)
+![DSC04378 (1).jpg](<https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc29f8040-41f6-47ef-a6ff-22e56c7c04fe%2Ff22b502c-b288-42bb-9eef-0b9056eccd52%2FDSC04378_(1).jpg?table=block&id=192d9b74-017f-44dc-83a0-8651ffa24b3b&spaceId=c29f8040-41f6-47ef-a6ff-22e56c7c04fe&width=2000&userId=751c0e10-dabd-4278-9b07-670f7468054b&cache=v2>) ![Google-Developer-Student-Clubs-Dong-Eui-University-Google-Developer-Student-Clubs-GDSC-are-community-groups-for-college-and-university-students-interested-in-Google-developer-technologies-Students-from-all-undergraduate-or-gra.jpg](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc29f8040-41f6-47ef-a6ff-22e56c7c04fe%2Fb295d424-2f2d-48cb-b96e-bd2f72827654%2FGoogle-Developer-Student-Clubs-Dong-Eui-University-Google-Developer-Student-Clubs-GDSC-are-community-groups-for-college-and-university-students-interested-in-Google-developer-technologies-Students-from-all-undergraduate-or-gra.jpg?table=block&id=ad570899-1ad8-428c-b69f-568857ec9803&spaceId=c29f8040-41f6-47ef-a6ff-22e56c7c04fe&width=2000&userId=751c0e10-dabd-4278-9b07-670f7468054b&cache=v2)
 
 자신이 알고 있는 지식을 다른 멤버들에게 공유하면서 발표하며 함께 소통합니다. 발표를 준비하는 과정에서 자신의 역량을 더욱 향상시킬 수 있으며, 다른 사람의 세션을 듣고 새로운 지식을 배우며 시야를 넓힐 수 있습니다.
 
@@ -95,16 +94,13 @@ https://open.kakao.com/me/gdsc_deu_23_24
 ### GDSC DEU 21-22 1기 김동영
 
 > 36명 시작
-> 
 
 ### GDSC DEU 22-23 2기 진희륜
 
 > 52명 활동
-> 
 
 ### GDSC DEU 23-24 3기 김남주
 
 > 현재 31명 활동 중
-> 
 
 [GDSC DEU 23-24 Q2 모집](https://www.notion.so/GDSC-DEU-23-24-Q2-fc93d2e757524276ac5f5f83ebffbe03?pvs=21)

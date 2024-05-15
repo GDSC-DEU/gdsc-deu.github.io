@@ -26,8 +26,8 @@ permalink: /event/
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h4 class="card-title">{{ post.title }}</h4>
-            <p class="card-text">{{ post.author }}</p>
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.author }} - {{ post.short_title }}</p>
             <p class="card-text"><small class="text-body-secondary">{{ post.start_time | date_to_string: "ordinal",
                 "US"}}</small>
             </p>
