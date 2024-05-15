@@ -124,7 +124,7 @@
   chore: 
     - 3기
   status: active
-  github: "12050"
+  github: 12050
   email: earthkorea1111@gmail.com
 
 - name: 강보민
@@ -140,6 +140,7 @@
   chore: 
     - 3기
   status: active
+  github: Junhwakang
   email: rkdwnsghk12@naver.com
 
 - name: 김다봄
@@ -179,7 +180,7 @@
   chore: 
     - 3기
   status: active
-  github: "111jjj111"
+  github: 111jjj111
   email: rlacjdgo23@gmail.com
 
 - name: 신유진
@@ -219,6 +220,7 @@
   chore: 
     - 3기
   status: active
+  github: auguaajh
   email: junhyeok0430@gmail.com
 
 - name: 임민욱
@@ -468,7 +470,7 @@
 
 - name: 최인수
   role: Member
-  c  chore: 
+  chore: 
     - 1기
   status: Finish
   github: Nifskor

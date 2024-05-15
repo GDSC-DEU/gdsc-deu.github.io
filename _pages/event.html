@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-permalink: /blog/
+permalink: /event/
 ---
 
 <script>
@@ -12,23 +12,25 @@ permalink: /blog/
 </script>
 
 <div id="blog-wrap">
-  <h1>Latest Posts</h1>
+  <h1>행사 리스트</h1>
 
   <!-- blog 카테고리만 불러옴 -->
-  {% assign posts = site.posts | where_exp: "post", "post.categories contains 'blog'" %}
+  {% assign posts = site.posts | where_exp: "post", "post.categories contains 'event'" %}
   {% for post in posts %}
   <a class="post-item" href="{{ post.url }}">
     <div class="card mb-3">
       <div class="row g-0">
         <div class="thumbnail-wrap col-md-4">
-          <img src="{{ post.thumbnail }}" class="thumbnail img-fluid rounded-start" alt="{{ post.title }}"
-            onerror="imgOnError(this)">
+          <img src="{{ post.thumbnail  | relative_url }}" class="thumbnail img-fluid rounded-start"
+            alt="{{ post.title }}" onerror="imgOnError(this)">
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">{{ post.title }}</h5>
+            <h4 class="card-title">{{ post.title }}</h4>
             <p class="card-text">{{ post.author }}</p>
-            <p class="card-text"><small class="text-body-secondary">{{ post.date }}</small></p>
+            <p class="card-text"><small class="text-body-secondary">{{ post.start_time | date_to_string: "ordinal",
+                "US"}}</small>
+            </p>
           </div>
         </div>
       </div>
