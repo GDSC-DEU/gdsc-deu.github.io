@@ -16,10 +16,12 @@ permalink: /study/
 <h1>📖 스터디 진행</h1>
 <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-        {% assign sorted = site.data.studies | sort: 'end' | reverse %}
-        {% for study in sorted %}
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="{{ study.image  | relative_url }}" alt="Card image cap">
+        {% assign posts = site.posts | where_exp: "post", "post.categories contains 'study'" | sort: 'end' %}
+        {% for study in posts %}
+        {% assign now = site.time | date: "%s" %}
+        {% assign end = study.end_time | date: "%s" %}
+        <a class="card" href="{{ study.url }}" style="width: 18rem;">
+            <img class="card-img-top" src="{{ study.thumbnail  | relative_url }}" alt="Card image cap">
             <div class="card-body">
                 <h4 class="card-title">
                     {{ study.title }}
@@ -27,20 +29,26 @@ permalink: /study/
                 <p class="card-text">
                     {{ study.description }}
                 </p>
+                <div>
+                    {% if now < end %} <span class="badge bg-success">진행중</span>
+                        {% else %}
+                        <span class="badge bg-danger">종료</span>
+                        {% endif %}
+                </div>
                 참가자
                 <ul>
-                    {% for member in study.members %}
-                    <li>{{ member.id }}</li>
+                    {% for member in study.attendees %}
+                    <li>{{ member }}</li>
                     {% endfor %}
                 </ul>
 
             </div>
             <div class="card-footer bg-transparent ">
-                {% for tag in study.tags %}
+                {% for tag in study.categories %}
                 <span class="badge bg-secondary">{{ tag }}</span>
                 {% endfor %}
             </div>
-        </div>
+        </a>
         {% endfor %}
     </div>
 </div>
