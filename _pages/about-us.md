@@ -54,12 +54,7 @@ GDSC DEU에서는 구글 개발자 기술에 관심이 있는 모든 학생의 �
 
 # GDSC DEU 지원하기
 
-<aside>
 🙂 23-24 GDSC DEU는 모두 지원이 마감되었습니다! 지원해 주신 모든 분들 감사합니다.
-
-</aside>
-
-![Untitled](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fc29f8040-41f6-47ef-a6ff-22e56c7c04fe%2F7ca8f2fc-d76b-46de-8f76-2940051626ae%2FUntitled.png?table=block&id=9fa3c656-171c-4c17-8aec-79802c8939cf&spaceId=c29f8040-41f6-47ef-a6ff-22e56c7c04fe&width=2000&userId=751c0e10-dabd-4278-9b07-670f7468054b&cache=v2)
 
 ## ~~모집 일정~~
 
@@ -75,19 +70,9 @@ GDSC DEU에서는 구글 개발자 기술에 관심이 있는 모든 학생의 �
 
 ### 김남주 - GDSC DEU 23-24 Lead
 
-<aside>
-✉️ **Email**
+[✉️ **Email**](mailto:cmsong111@gmail.com)
 
-cmsong111@gmail.com
-
-</aside>
-
-<aside>
-<img src="/icons/conversation_yellow.svg" alt="/icons/conversation_yellow.svg" width="40px" /> **카카오톡**
-
-https://open.kakao.com/me/gdsc_deu_23_24
-
-</aside>
+[카카오톡 오픈 채팅방 문의하기](https://open.kakao.com/o/s3Q6Qz1d)
 
 ## GDSC DEU 연혁
 
@@ -102,5 +87,3 @@ https://open.kakao.com/me/gdsc_deu_23_24
 ### GDSC DEU 23-24 3기 김남주
 
 > 현재 31명 활동 중
-
-[GDSC DEU 23-24 Q2 모집](https://www.notion.so/GDSC-DEU-23-24-Q2-fc93d2e757524276ac5f5f83ebffbe03?pvs=21)
