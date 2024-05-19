@@ -5,7 +5,7 @@ title: "GDSC DEU 1기 성과 공유회"
 short_title: "지난 1년을 회고하며 되돌아보는 시간"
 start_time: 2022-08-20T15:00:00
 end_time: 2022-08-20T17:00:00
-categories: []
+tags: [output]
 author: 진희륜
 ---
 

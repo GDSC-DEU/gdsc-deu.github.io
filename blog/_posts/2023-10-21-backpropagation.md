@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "인공지능 - Backpropagation 기법"
-date: 2023-10-21 15:30:00 +0900
-categories: [AI]
+date: 2023-10-21T15:30:00Z
+tags: [AI]
 author: 장현제
 ---
 
@@ -38,15 +38,15 @@ author: 장현제
 
 ![](./assets/img/AI/[ai]backward_pass.png)
 
- forward pass를 통해 구해진 Local Gradient와, Backward pass를 통해 Global Gradient를 구한다.
- Gradient를 구하는 이유는 Input Data가 Output Data에 영향을 미치는 정도를 계산하기 위함.
- 인공지능은 그것을 메모리에 저장하는 방식으로 학습 과정의 가중치를 저장한다.
+forward pass를 통해 구해진 Local Gradient와, Backward pass를 통해 Global Gradient를 구한다.
+Gradient를 구하는 이유는 Input Data가 Output Data에 영향을 미치는 정도를 계산하기 위함.
+인공지능은 그것을 메모리에 저장하는 방식으로 학습 과정의 가중치를 저장한다.
 
 ![](./assets/img/AI/[ai]flow.png)
 
- - 덧셈 연산의 역전파는 그대로를,
- - 곱셈 연산의 역전파는 서로 바꾼 값을,
- - Max 연산의 역전파는 큰 값의 경우 1, 작은 값의 경우는 0으로 만들어서 전달한다.
- - Forward Pass 연산 과정에서 Local Gradient를 미리 계산하여 저장한다.
- - Backward Pass 연산에서 Global Gradient를 계산한다.
- - 두 값을 곱하여 최종 gradient를 얻는데, 이때 chain rule이 발생한다.
+- 덧셈 연산의 역전파는 그대로를,
+- 곱셈 연산의 역전파는 서로 바꾼 값을,
+- Max 연산의 역전파는 큰 값의 경우 1, 작은 값의 경우는 0으로 만들어서 전달한다.
+- Forward Pass 연산 과정에서 Local Gradient를 미리 계산하여 저장한다.
+- Backward Pass 연산에서 Global Gradient를 계산한다.
+- 두 값을 곱하여 최종 gradient를 얻는데, 이때 chain rule이 발생한다.

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Flutter 기초 문법"
-date: 2023-10-15 16:45:00 +0900
-categories: [Flutter]
+date: 2023-10-15T16:45:00Z
+tags: [Flutter, Dart, Syntax]
 author: 진희륜
 ---
 

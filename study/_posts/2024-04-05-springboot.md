@@ -5,7 +5,7 @@ title: "스프링부트 스터디"
 description: 스프링부트 스터디
 start_time: 2024-04-03T17:00:00
 end_time: 2024-06-03T19:00:00
-categories: [java, spring, springboot]
+tags: [java, spring, springboot]
 author: 김남주
 attendees:
   - 이준혁
