@@ -5,7 +5,7 @@ title: "정기 세션 - OT"
 short_title: "GDSC DEU 3기 2번째 OT"
 start_time: 2024-04-05T17:00:00
 end_time: 2024-04-05T19:00:00
-tags: [regular-session, ot]
+tags: [정기 세션, ot]
 author: 김남주
 ---
 
