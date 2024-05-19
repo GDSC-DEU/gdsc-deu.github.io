@@ -2,8 +2,8 @@
 layout: post
 thumbnail: https://github.com/sunbaklee/tech-blog/assets/105528907/61f561c9-a338-41e5-bcba-528b62a79766
 title: "adafruit 디스플레이 사용해보기"
-date: 2023-11-19 21:30:00 +0900
-categories: [Embedded]
+date: 2023-11-19T21:30:00Z
+tags: [Embedded]
 author: 이선학
 ---
 

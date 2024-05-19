@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "포스팅 하는 방법"
-date: 2023-08-26T23:58:13
-categories: [infomation]
+date: 2023-08-26T23:58:13Z
+tags: [infomation, jekyll, markdown]
 author: 김남주
 ---
 

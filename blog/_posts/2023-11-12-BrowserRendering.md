@@ -1,8 +1,8 @@
 ---
    layout: post
    title: "브라우저 렌더링(CSR, SSR, SSG)"
-   date: 2023-11-12 17:00:00 +0900
-   categories: infomation
+   date: 2023-11-12T17:00:00Z
+   tags: [web, frontend, rendering]
    author: 임도훈
 ---
 

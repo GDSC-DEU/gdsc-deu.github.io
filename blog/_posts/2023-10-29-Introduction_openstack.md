@@ -2,8 +2,8 @@
 layout: post
 thumbnail: https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-assets-prod/learn/software-overview-diagram-new.svg
 title: "오픈소스 클라우드 운영체제 OpenStack 소개"
-date: 2023-10-30 19:40:00 +0900
-categories: [Cloud]
+date: 2023-10-30T19:40:00Z
+tags: [Cloud, OpenStack]
 author: 정예준
 ---
 

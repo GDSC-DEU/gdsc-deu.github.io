@@ -6,8 +6,15 @@ layout: default-markdown
         max-width: 100% !important;
     }
 </style>
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<span style="font-size: 1.5em; font-weight: bold;">{{ page.title }}</span>
+
+<p><b>{{ page.author }}</b> - {{ page.date | date: "%Y년 %m월 %-d일" }}</p>
+
+{% for tag in page.tags %}
+<span class="badge bg-secondary">{{ tag }}</span>
+{% endfor %}
+
+<h1></h1>
 
 {{ content }}
 

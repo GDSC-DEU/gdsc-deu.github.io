@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Java와 Kotlin"
-date: 2023-11-04T00:00:00.00
-categories: [programming]
+date: 2023-11-04T00:00:00.00Z
+tags: [kotlin, java, syntax]
 author: 윤채민
 ---
 
