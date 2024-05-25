@@ -32,6 +32,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: jekyllrb
 github_username:  GDSC-DEU
 timezone: Asia/Seoul
+future : true
 
 # -------------------------------------------------------
 # Collection setting

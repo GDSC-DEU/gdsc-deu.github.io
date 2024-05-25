@@ -21,7 +21,7 @@ author: 김남주
    layout: post
    title: "글 작성 하는 방법"
    date: 2023-08-26T23:58:13
-   categories: [infomation]
+   tag: [infomation]
    author: 작성자
    ---
    ```
@@ -33,8 +33,8 @@ author: 김남주
    - date
      - 글의 작성일을 입력합니다. (시간은 선택사항)
      - 예) 2023-08-26T23:58:13
-   - categories
-     - 글의 카테고리를 입력합니다.
+   - tag
+     - 글의 태그를 입력합니다.
      - 예) [infomation, programming, etc]
    - author
      - 글의 작성자를 입력합니다.
