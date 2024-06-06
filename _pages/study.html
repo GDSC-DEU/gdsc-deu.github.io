@@ -13,42 +13,49 @@ permalink: /study/
 </style>
 
 
-<h1>📖 스터디 진행</h1>
-<div class="container">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+<h1 class="text-center fs-1 mt-5">스터디 진행</h1>
+<h2 class="text-center fs-5 fw-light mb-5">📖 스터디 진행 목록입니다.</h2>
+<div class="container my-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-3 justify-content-center justify-content-md-evenly">
         {% assign posts = site.posts | where_exp: "post", "post.categories contains 'study'" | sort: 'end' %}
         {% for study in posts %}
         {% assign now = site.time | date: "%s" %}
         {% assign end = study.end_time | date: "%s" %}
-        <a class="card" href="{{ study.url }}" style="width: 18rem;">
-            <img class="card-img-top" src="{{ study.thumbnail  | relative_url }}" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">
-                    {{ study.title }}
-                </h4>
-                <p class="card-text">
-                    {{ study.description }}
-                </p>
-                <div>
-                    {% if now < end %} <span class="badge bg-success">진행중</span>
+            <div class="col" style="width: 20rem;">
+                <div class = "card text-left h-100">
+                    <a href="{{ study.url }}">
+                        <img width = "200px" class="card-img-top border-bottom border-black-50 p-3" src="{{ study.thumbnail  | relative_url }}" alt="{{study.title}} thumbnail photo">
+                    </a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a class="link-underline link-underline-opacity-0" href="{{ study.url }}">
+                                {{ study.title }}
+                            </a>
+                        </h4>
+                        <div class="mt-2 mb-3">
+                            {% for tag in study.tags %}
+                                <span class="badge bg-light text-dark">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        <p class="card-text">
+                            {{ study.description }}
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        {% if now < end %}
+                            <span class="badge bg-success bg-gradient">진행중</span>
                         {% else %}
-                        <span class="badge bg-danger">종료</span>
+                            <span class="badge bg-danger bg-gradient">종료</span>
                         {% endif %}
+                        <span class="">
+                            {{ study.start_time | date: "%Y/%m/%d" }} ~ 
+                            {% if now > end %}
+                                {{ study.end_time | date: "%Y/%m/%d" }}                               
+                            {% endif %}
+                        </span>
+                    </div>
                 </div>
-                참가자
-                <ul>
-                    {% for member in study.attendees %}
-                    <li>{{ member }}</li>
-                    {% endfor %}
-                </ul>
-
             </div>
-            <div class="card-footer bg-transparent ">
-                {% for tag in study.tags %}
-                <span class="badge bg-secondary">{{ tag }}</span>
-                {% endfor %}
-            </div>
-        </a>
         {% endfor %}
     </div>
 </div>
