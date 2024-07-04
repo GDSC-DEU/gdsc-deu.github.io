@@ -4,7 +4,7 @@ title: "GDSC DEU Summer Project"
 short_title: "7-8월 Summer Project"
 start_time: 2024-07-05 T18:00:00
 end_time: 2024-08-14T19:00:00
-tags: [Event, Project]
+tags: [Notice, Project]
 author: 이도원
 ---
 
