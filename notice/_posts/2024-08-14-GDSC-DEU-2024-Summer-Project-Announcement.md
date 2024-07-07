@@ -42,9 +42,8 @@ author: 이도원, 김지홍
 1. 7월 12일까지 프로젝트 아이디어 및 팀장 정보 제출
 2. 프로젝트 구조도 멘토링 후 비용 지원 신청(클라우드, 생성형AI API 등)
 3. 깃허브 조직(Organization)에 리포지토리 등록 [GDSC-DEU Github 조직](https://github.com/GDSC-DEU)
-4. **7월 25일까지 프로토타입 제작 및 발표 자료 제출** : 7월 27일 [GDSC DEU Summer Party](https://www.notion.so/GDSC-DEU-Summer-Networking-Event-fc93d2e757524276ac5f5f83ebffbe03?pvs=21) 발표 및 피드백
+4. **7월 25일까지 프로토타입 제작 및 발표 자료 제출** : 7월 27일 [GDSC DEU Summer Party](https://gdsc-deu.github.io/notice/2024/05/16/end-party.html)에서 발표 및 피드백
 5. **8월 10일까지 프로젝트 최종 완성 및 발표 자료 제출** : 8월 14일 발표 예정
-
 ### 🎁 특전
 - 멘토링 : 각 개발 파트별 멘토링 제공 (GDSC 전현직 Core 및 Lead, 우아한테크코스 수료자, 현직자 등)
     * Github 등을 이용한 코드리뷰 및 질의 응답 (멘토링에 관한 자세한 내용은 아래 슬라이드를 확인해 주세요)
