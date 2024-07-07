@@ -83,7 +83,7 @@ author: 이도원
 
 <br>
 
-![GDSC DEU Summer Project](/assets/img/events/24.08.14/SP_Cloud.png)
+![GDSC DEU Summer Project](/assets/img/events/24.08.14/SP_Cloudtype.png)
 
 
 ## 프로젝트 유의 사항
