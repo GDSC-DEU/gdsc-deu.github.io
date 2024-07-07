@@ -28,7 +28,7 @@ author: 이도원, 김지홍
   
 - 7월 5일 ~ 7월 26일 : 팀별 프로젝트 진행 (자유롭게 진행) 및 발표 자료 제작 후 제출
 
-- **7월 27일 : [GDSC DEU Summer Party](https://www.notion.so/GDSC-DEU-Summer-Networking-Event-fc93d2e757524276ac5f5f83ebffbe03?pvs=21)에서 현직자(졸업생)의 코드리뷰**
+- **7월 27일 : [GDSC DEU Summer Party](https://gdsc-deu.github.io/notice/2024/05/16/end-party.html)에서 현직자(졸업생)의 코드리뷰**
 
 - 7월 27일 ~ 8월 10일 : 팀별 프로젝트 마무리 및 최종 발표 자료 제작 후 제출
 
