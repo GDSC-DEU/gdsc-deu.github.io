@@ -31,7 +31,6 @@ GEM
     faraday-net_http (3.1.0)
       net-http
     ffi (1.16.3)
-    ffi (1.16.3-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (231)
@@ -125,8 +124,6 @@ GEM
     jekyll-github-metadata (2.16.1)
       jekyll (>= 3.4, < 5.0)
       octokit (>= 4, < 7, != 4.4.0)
-    jekyll-google_search_console_verification_file (1.1.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-mentions (1.6.0)
@@ -217,6 +214,8 @@ GEM
     minitest (5.22.3)
     net-http (0.4.1)
       uri
+    nokogiri (1.16.4-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.16.4-x64-mingw32)
       racc (~> 1.4)
     nokogiri (1.16.4-x86_64-linux)
@@ -257,7 +256,6 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.9.1)
-    unf_ext (0.0.9.1-x64-mingw32)
     unicode-display_width (1.8.0)
     uri (0.13.0)
     wdm (0.1.1)
@@ -265,6 +263,7 @@ GEM
     zeitwerk (2.6.13)
 
 PLATFORMS
+  x64-mingw-ucrt
   x64-mingw32
   x86_64-linux
 
@@ -272,7 +271,6 @@ DEPENDENCIES
   github-pages (~> 231)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.17.0)
-  jekyll-google_search_console_verification_file
   jekyll-seo-tag
   jekyll-sitemap
   kramdown-parser-gfm

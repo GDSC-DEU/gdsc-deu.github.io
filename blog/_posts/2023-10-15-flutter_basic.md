@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Flutter 기초 문법"
+thumbnail: https://logowik.com/content/uploads/images/flutter5786.jpg
 date: 2023-10-15T16:45:00Z
 tags: [Flutter, Dart, Syntax]
 author: 진희륜

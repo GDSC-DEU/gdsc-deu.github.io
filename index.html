@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!--  배너 슬라이드 -->
 <div id="carousel" class="carousel slide">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -97,4 +98,131 @@ layout: default
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
+</div>
+
+<!--  2열 그리드로 최근 공지사항, 이벤트, 활동 소식을 보여줌 -->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card border-white">
+                <div class="card-body">
+                    <h5 class="card-title">최근 공지사항</h5>
+                    <p class="card-text"> GDSC DEU의 공지사항을 확인하세요</p>
+                    {% assign notices = site.posts | where_exp: "post", "post.categories contains 'notice'" %}
+                    {% for notice in notices limit: 5 %}
+                    <a class="post-item" href="{{ notice.url }}">
+                        <div class="card mb-1" style="height: 50px;">
+                            <div class="row g-0">
+                                <div class="post-thumbnail col-md-3">
+                                    <img src="{{ notice.thumbnail  | relative_url }}" class="img-fluid rounded-start"
+                                        alt="{{ notice.title }}" style="object-fit: cover; height: 48px; width: 100%;">
+                                </div>
+                                <div class=" col-md-8">
+                                    <div class="card-body">
+                                        <p>
+                                            {{ notice.title }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                    <p class="card-footer">더 많은 공지사항을 보려면 <a href="/notice">여기</a>를 클릭하세요.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card border-white">
+                <div class="card-body">
+                    <h5 class="card-title">최근 이벤트</h5>
+                    <p class="card-text">GDSC DEU의 최근 이벤트를 확인하세요.</p>
+                    {% assign events = site.posts | where_exp: "post", "post.categories contains 'event'" %}
+                    {% for event in events limit: 5 %}
+                    <a class="post-item" href="{{ event.url }}">
+                        <div class="card mb-1" style="height: 50px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="{{ event.thumbnail  | relative_url }}" class="img-fluid rounded-start"
+                                        alt="{{ event.title }}" style="object-fit: cover; height: 48px; width: 100%;">
+                                </div>
+                                <div class=" col-md-8">
+                                    <div class="card-body">
+                                        <p>
+                                            {{ event.title }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                    <p class="card-footer">더 많은 이벤트를 보려면 <a href="/event">여기</a>를 클릭하세요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card border-white">
+                <div class="card-body">
+                    <h5 class="card-title">기술 블로그</h5>
+                    <p class="card-text">GDSC DEU의 최근 공지사항을 확인하세요.</p>
+                    {% assign blogs = site.posts | where_exp: "post", "post.categories contains 'blog'" %}
+                    {% for blog in blogs limit: 5 %}
+                    <a class="post-item" href="{{ blog.url }}">
+                        <div class="card mb-1" style="height: 50px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="{{ blog.thumbnail  | relative_url }}" class="img-fluid rounded-start"
+                                        alt="{{ blog.title }}" style="object-fit: cover; height: 48px; width: 100%;">
+                                </div>
+                                <div class=" col-md-8">
+                                    <div class="card-body">
+                                        <p>
+                                            {{ blog.title }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                    <p class="card-footer">더 많은 기술 블로그를 보려면 <a href="/blog">여기</a>를 클릭하세요.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card border-white">
+                <div class="card-body">
+                    <h5 class="card-title">운영중인 스터디</h5>
+                    <p class="card-text">GDSC DEU의 최근 공지사항을 확인하세요.</p>
+                    {% assign studys = site.posts | where_exp: "post", "post.categories contains 'study'" | sort :
+                    'start_time' %}
+                    {% for study in studys limit: 5 %}
+                    <a class="post-item" href="{{ study.url }}">
+                        <div class="card mb-1" style="height: 50px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="{{ study.thumbnail  | relative_url }}" class="img-fluid rounded-start"
+                                        alt="{{ study.title }}" style="object-fit: cover; height: 48px; width: 100%;">
+                                </div>
+                                <div class=" col-md-8">
+                                    <div class="card-body">
+                                        <p>
+                                            {{ study.title }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {% endfor %}
+                    <p class="card-footer">더 많은 스터디를 보려면 <a href="/study">여기</a>를 클릭하세요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

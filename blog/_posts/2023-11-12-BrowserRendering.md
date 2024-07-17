@@ -1,9 +1,10 @@
 ---
-   layout: post
-   title: "브라우저 렌더링(CSR, SSR, SSG)"
-   date: 2023-11-12T17:00:00Z
-   tags: [web, frontend, rendering]
-   author: 임도훈
+layout: post
+title: "브라우저 렌더링(CSR, SSR, SSG)"
+date: 2023-11-12T17:00:00Z
+tags: [web, frontend, rendering]
+author: 임도훈
+thumbnail: assets/img/GDSC_Dong-Eui_University_Vertical_color.png
 ---
 
 ## 브라우저 렌더링(Browser Rendering)

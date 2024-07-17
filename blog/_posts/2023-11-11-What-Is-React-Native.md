@@ -4,6 +4,7 @@ title: "React Native란?"
 date: 2023-11-11 11:30:00 +0900
 tags: [frontend, web, react]
 author: 박상현
+thumbnail: https://velog.velcdn.com/images/imysh578/post/1f54af4b-6908-44fd-9072-3542ab10fe36/image.png
 ---
 
 <div style="text-align: center;">

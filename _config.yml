@@ -29,10 +29,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 domain: gdsc-deu.github.io
 url: "https://gdsc-deu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: jekyllrb
+# SNS 설정
+instagram_username: gdsc.deu
 github_username:  GDSC-DEU
+# 타임존 설정
 timezone: Asia/Seoul
-future : true
+# 작성일이 미래라도 빌드할 것인지 여부
+future : true 
 
 # -------------------------------------------------------
 # Collection setting

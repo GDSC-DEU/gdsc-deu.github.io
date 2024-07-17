@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "JavaScript 시작하기"
+thumbnail: https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png
 date: 2023-11-12T21:30:00Z
 tags: [JavaScript]
 author: 박소은

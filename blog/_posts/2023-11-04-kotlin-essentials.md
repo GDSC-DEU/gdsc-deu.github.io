@@ -4,6 +4,7 @@ title: "Java와 Kotlin"
 date: 2023-11-04T00:00:00.00Z
 tags: [kotlin, java, syntax]
 author: 윤채민
+thumbnail: https://miro.medium.com/v2/resize:fit:800/0*O-c793aaB6gcmsbj.png
 ---
 
 ## **Kotlin이란**
