@@ -1,6 +1,6 @@
 ---
 layout: post
-thumbnail: assets\img\events\24.08.14\Summer Project.png
+thumbnail: /assets/img/notices/24.07.01/Summer_Project.png
 title: "GDSC DEU Summer Project 공지"
 short_title: "7-8월 Summer Project"
 start_time: 2024-06-14T18:00:00
@@ -9,7 +9,7 @@ tags: [Notice, Project]
 author: 이도원
 ---
 
-![GDSC DEU Summer Project](/assets/img/events/24.08.14/Summer%20Project.png)
+![GDSC DEU Summer Project](/assets/img/notices/24.07.01/Summer_Project.png)
 
 ## Summer Project란?
 

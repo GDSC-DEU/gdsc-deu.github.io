@@ -1,6 +1,6 @@
 ---
 layout: post
-thumbnail: assets\img\events\24.08.14\Summer Project.png
+thumbnail: /assets/img/notices/24.07.01/Summer_Project.png
 title: "GDSC DEU Summer Project 안내"
 short_title: "Summer Project 세부 안내"
 start_time: 2024-07-01T18:00:00
@@ -11,7 +11,7 @@ author: 이도원, 김지홍
 
 # GDSC DEU Summer Project
 
-![GDSC DEU Summer Project](/assets/img/events/24.08.14/Summer%20Project.png)
+![GDSC DEU Summer Project](/assets/img/notices/24.07.01/Summer_Project.png)
 
 ## 🏖️ Summer Project란?
 
@@ -57,8 +57,6 @@ author: 이도원, 김지홍
 </div>
 
 ### 👨‍🏫 멘토 소개
-
-https://avatars.githubusercontent.com/cmsong111
 
 <table>
   <tr>
