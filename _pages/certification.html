@@ -1,0 +1,57 @@
+---
+layout: default
+title: Certification
+permalink: /certification
+---
+
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrsasign/11.1.0/jsrsasign-all-min.js"
+        integrity="sha512-Eu9j+HZBor7muHf6IDWoWZ8FKVr6nKe9eIIVR28NEte4Y4GiYRlke26XGdR/re81XE/FfLoLYYVkvNk5GY9RvQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- my js -->
+    <script src="https://cmsong111.github.io/Digital-Signature-Certification-Generator/assets/js/signature.js"></script>
+
+    <script>
+
+        (async () => {
+            const response = await axios.get("https://gdsc-deu.github.io/assets/rsa_pub.pem");
+            document.getElementById("publicKey").value = response.data;
+
+            loadRSAKeyPair();
+
+            const url = new URL(window.location);
+            const jwsCode = url.searchParams.get("code");
+
+            document.getElementById("jws-code").value = jwsCode;
+
+            parseJWS();
+        })();
+    </script>
+
+
+
+</head>
+
+
+<input type="hidden" id="publicKey" />
+<input type="text" id="jws-code" class="form-control" placeholder="JWS Code" oninput="parseJWS()" />
+
+
+<!-- Json 파싱 결과 -->
+<div class="mb-3">
+    <label for="payload" class="form-label">인증서 내용</label>
+    <textarea id="payload" class="form-control" rows="5" placeholder="payload" readonly></textarea>
+</div>
+
+<div class="mb-3">
+    <button id="parse_result" class="btn btn-secondary" onclick="parseJWS()">검증 결과
+</div>
+
+<div id="download_area" class="d-none">
+    <!--팝업창 띄우기  -->
+    <button type="button" class="btn btn-primary" id="download"
+        onclick="window.open('https://cmsong111.github.io/Digital-Signature-Certification-Generator/gen_cert?data=' + document.getElementById('payload').value, '_blank' );">
+        <i class="bi bi-download"></i>인증서/상장 다운로드
+</div>
