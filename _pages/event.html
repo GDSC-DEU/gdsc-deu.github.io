@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 layout: default
 title: Blog
@@ -38,45 +37,4 @@ permalink: /event/
     <div class="hover-warp"></div>
   </a>
   {% endfor %}
-=======
----
-layout: default
-title: Blog
-permalink: /event/
----
-
-<script>
-  function imgOnError(img) {
-    img.onerror = '';
-    img.src = '{{ "/assets/img/GDSC_Dong-Eui_University_Vertical_color.png" }}';
-  }
-</script>
-
-<div id="blog-wrap">
-  <h1>행사 리스트</h1>
-
-  {% assign posts = site.posts | where_exp: "post", "post.categories contains 'event'" %}
-  {% for post in posts %}
-  <a class="post-item" href="{{ post.url }}">
-    <div class="card mb-3">
-      <div class="row g-0">
-        <div class="thumbnail-wrap col-md-4">
-          <img src="{{ post.thumbnail  | relative_url }}" class="thumbnail img-fluid rounded-start"
-            alt="{{ post.title }}" onerror="imgOnError(this)">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">{{ post.title }}</h5>
-            <p class="card-text">{{ post.author }} - {{ post.short_title }}</p>
-            <p class="card-text"><small class="text-body-secondary">{{ post.start_time | date: "%Y년 %m월
-                %-d일" }}</small>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hover-warp"></div>
-  </a>
-  {% endfor %}
->>>>>>> a53eb45 (Post: 알고리즘 스터디 1주차 알고리즘팀)
 </div>
